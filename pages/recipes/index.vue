@@ -1,3 +1,6 @@
+/** 
+ * @Description: recipes
+ */ 
 <template>
   <section class="recipes">
 		<Recipe 

@@ -1,3 +1,6 @@
+/**
+ * @Description: recipe
+ */
 <template>
   <section class="single-recipe">
     <h1>{{ recipe.title }}</h1>

@@ -1,3 +1,6 @@
+/**
+ * @Description: 首页
+ */
 <template>
   <section class="container">
     <div>
