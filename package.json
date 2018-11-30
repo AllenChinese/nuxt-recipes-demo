@@ -1,8 +1,8 @@
 {
   "name": "recipes",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "My outstanding Nuxt.js project",
-  "author": "allen",
+  "author": "allenChinese",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -11,7 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^1.0.0"
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
     "cross-env": "^5.0.1"
