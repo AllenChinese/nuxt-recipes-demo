@@ -2,6 +2,11 @@
 
 > My outstanding Nuxt.js project
 
+## 常见启动错误
+  - Error: getaddrinfo ENOTFOUND localhost
+
+      add 127.0.0.1 localhost to /etc/hosts
+
 ## Build Setup
 
 ``` bash
