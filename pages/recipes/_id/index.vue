@@ -15,7 +15,7 @@
 export default {
   /**
 	 * @description data from server
-	 */ 
+	 */
 	asyncData (context) {
 
     return new Promise((resolve, reject) => {
@@ -27,28 +27,27 @@ export default {
 							title: 'Delicious Pizza',
               previewText: 'Awesome Pizza',
               descriptionText: 'This is a nice Pizza',
-							thumbnail: 'https://static.pexels.com/photos/326278/pexels-photo-326278.jpeg'
+							thumbnail: require('@/assets/images/food1.jpg')
 						},
 						{
 							id: '2',
 							title: 'Delicious vigetable',
               previewText: 'Awesome vigetable',
               descriptionText: 'This is a awesome vigetable',
-							thumbnail: 'https://images.pexels.com/photos/5938/food-salad-healthy-lunch.jpg'
+							thumbnail: require('@/assets/images/food2.jpg')
 						}
 					].find(el => el.id === context.params.id)
 				});
 			}, 1500)
     })
-    
+
   }
-  
+
 }
 </script>
 
 <style>
-.single-recipe
-{
+.single-recipe {
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -56,8 +55,7 @@ export default {
   text-align: center;
   padding: 30px;
 }
-.recipe-image img
-{
+.recipe-image img {
   width: 80%;
 }
 </style>
