@@ -11,8 +11,7 @@
 </template>
 
 <style scoped>
-header
-{
+header {
   display: flex;
   width: 100%;
   padding: 10px 0;
@@ -22,8 +21,7 @@ header
   background-color: #521751;
 }
 
-ul
-{
+ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,15 +30,17 @@ ul
   margin: 0;
 }
 
-li
-{
+li {
   margin: 0 10px;
 }
 
-a
-{
+a {
   text-decoration: none;
-  color: white;
+  color: #999;
+}
+
+.nuxt-link-exact-active.nuxt-link-active {
+  color: #fff;
 }
 </style>
 
