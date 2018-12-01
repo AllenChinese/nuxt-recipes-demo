@@ -13,7 +13,7 @@
 
 * 详情页
 
-![详情页](./assets/md/cut2.png)
+![详情页](./assets/md/cut2.jpg)
 
 ## 常见启动错误
   - Error: getaddrinfo ENOTFOUND localhost
