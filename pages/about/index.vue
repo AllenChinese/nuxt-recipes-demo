@@ -4,9 +4,14 @@
 <template>
 <div>
   <h1>THE ABOUT PAGE</h1>
-   <div class="recipe-image">
-      <img :src="recipe.thumbnail" :alt="recipe.previewText">
-    </div>
+  <div class="link-part">
+    <p v-for="item in linkData">
+      <a :href="item.url">
+        {{item.name}}
+      </a>
+    </p>
+  </div>
+
   </div>
 </template>
 
@@ -14,10 +19,20 @@
 export default {
   data () {
     return {
-      recipe: {
-        previewText: 'Awesome Pizza',
-				thumbnail: require('@/assets/images/food1.jpg')
-      }
+      linkData: [
+        {
+          url: 'https://zh.nuxtjs.org/',
+          name: 'NUXT'
+        },
+        {
+          url: 'https://github.com/AllenChinese',
+          name: 'MY Github'
+        },
+        {
+          url: 'https://www.pexels.com',
+          name: 'Nice Pexels'
+        }
+      ]
     }
   }
 }
@@ -25,11 +40,14 @@ export default {
 
 <style scoped>
 h1 {
+  margin: 20px;
   text-align: center;
 }
-.recipe-image {
+.link-part {
+  display: flex;
+  justify-content: space-between;
   margin: 0 auto;
-  text-align: center;
+  width: 500px;
 }
 </style>
 

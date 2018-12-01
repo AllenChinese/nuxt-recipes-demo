@@ -46,6 +46,30 @@ export default {
 							title: 'Delicious vigetable',
 							previewText: 'Awesome vigetable',
 							thumbnail: require('@/assets/images/food2.jpg')
+						},
+						{
+							id: '3',
+							title: 'Delicious sweet corn',
+							previewText: 'Awesome sweet corn',
+							thumbnail: require('@/assets/images/food3.jpg')
+						},
+						{
+							id: '4',
+							title: 'Delicious beef',
+							previewText: 'Awesome beef',
+							thumbnail: require('@/assets/images/food1.jpg')
+						},
+						{
+							id: '5',
+							title: 'Delicious pork',
+							previewText: 'Awesome pork',
+							thumbnail: require('@/assets/images/food2.jpg')
+						},
+						{
+							id: '6',
+							title: 'Delicious pea',
+							previewText: 'Awesome pea',
+							thumbnail: require('@/assets/images/food3.jpg')
 						}
 					]
 				});
@@ -62,5 +86,7 @@ export default {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  margin: 50px auto;
+  width: 990px;
 }
 </style>
